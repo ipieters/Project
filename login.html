@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Code Yourself</title>
-        <link rel="stylesheet" href="/stylesheets/style.css">
+        <link rel="stylesheet" href="public/stylesheets/style.css">
     </head>
     <body>
         <form action="http://httpbin.org/post" method="POST">
@@ -10,13 +10,14 @@
           <label>Password: <input type="password" name="password"></label>
             <input type="submit" value="Go" name="go">     
         </form>
-        <form action="/signup" method="POST">
-            <label>First Name: <input type="text" name="fname"></label>
-            <label>Last Name: <input type="text" name="lname"></label>
-            <label>Date of Birth: <input type="date" name="date"></label>
-            <label>Email: <input type="email" name="email"></label>
-            <label>Password: <input type="password" name="password"></label>
-            <input type="submit" value="Go" name="go">
+        <form  class="form2" action="/signup" method="POST">  
+        <div class="new">New? Sign up below</div>
+            <div><label>First Name: <input type="text" name="fname"></label>
+            <label>Last Name: <input type="text" name="lname"></label></div>
+            <div><label>Date of Birth: <input type="date" name="date"></label></div>
+            <div><label>Email: <input type="email" name="email"></label></div>
+            <div><label>Password: <input type="password" name="password"></label>
+            <input type="submit" value="Go" name="go"></div>
         </form>
     </body>
 </html>

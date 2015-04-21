@@ -1,0 +1,32 @@
+body{
+  background-image:url(http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide.jpg); 
+}
+
+form{
+  color:white;
+  text-align:right;
+  font-family:arial;
+}
+
+label{
+  font-style:sans-serif;
+}
+
+.form2{
+  text-align:center;
+  color:white;
+  display:center;
+  font-family:arial;
+  }
+
+.new{
+  text-align:center;
+  color:white;
+  font-style:normal;
+  font-family:arial;
+}
+
+input{
+  background-color:black;
+  color:white;
+}
